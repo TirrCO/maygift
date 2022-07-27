@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Girassol';
+    src: url('../fontes/gabriella.otf') format('opentype');
+    src: url('../fontes/gabriella.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+body {
+    height: 88vh;
+    background: black url('../imagens/sfwfieldok.jpg') center top/cover no-repeat fixed;
+}
+
+main {
+    border-radius: 10px;
+    background-color: #e6e1de;
+    max-width: 500px;
+    height: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 15px goldenrod;
+}
+
+main > h1 {
+    font-weight: lighter;
+    font-size: 3em;
+    font-family: 'Girassol', sans-serif;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(100, 50, 14, 0.808);
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    line-height: 22px;
+    text-align: justify;
+    text-shadow: 0.5px 0.5px 0.5px goldenrod;
+    margin-left: 60px;
+    margin-top: 30px;
+}
